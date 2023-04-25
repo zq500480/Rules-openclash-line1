@@ -53,6 +53,7 @@
 - RULE-SET,Steam,Steam
 - RULE-SET,Speedtest,Speedtest
 - RULE-SET,PayPal,PayPal
+- RULE-SET,Europe,Europe
 - RULE-SET,Microsoft,Microsoft
 - RULE-SET,ChatGPT,ChatGPT
 
@@ -125,6 +126,7 @@ script:
             "Steam": "Steam",
             "Speedtest": "Speedtest",
             "PayPal": "PayPal",
+            "Europe": "Europe",
             "Microsoft": "Microsoft",
             "ChatGPT": "ChatGPT",
             "Apple Music": "Apple TV",
@@ -478,6 +480,12 @@ rule-providers:
     behavior: classical
     url: 'https://dler.cloud/Rules/Clash/Provider/PayPal.yaml'
     path: ./Rules/PayPal
+    interval: 86400
+  Europe:
+    type: http
+    behavior: classical
+    url: 'https://dler.cloud/Rules/Clash/Provider/PayPal.yaml'
+    path: ./Rules/Europe
     interval: 86400
   Microsoft:
     type: http
