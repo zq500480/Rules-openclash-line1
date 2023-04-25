@@ -484,7 +484,7 @@ rule-providers:
   Europe:
     type: http
     behavior: classical
-    url: 'https://dler.cloud/Rules/Clash/Provider/PayPal.yaml'
+    url: 'https://github.com/zq500480/Rules-openclash-line1/blob/main/Clash/Provider/Europe.yaml'
     path: ./Rules/Europe
     interval: 86400
   Microsoft:
