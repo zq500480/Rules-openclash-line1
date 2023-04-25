@@ -1,1 +1,6 @@
-
+payload:
+  # > Europel
+  # - USER-AGENT,Europe*
+  - DOMAIN-KEYWORD,n26
+  - DOMAIN-SUFFIX,n26.com
+  - DOMAIN-SUFFIX,wirexapp.com
